@@ -2,12 +2,13 @@
   width : 75%;
   margin : auto;
   box-shadow: 0 1rem 6rem rgba($color-black, .1);
-  background-color: $color-white;
+  background-color: rgba($color-white,.6);
   border-radius: .3rem;
   padding : 6rem;
   padding-left : 9rem;
   font-size : $default-font-size;
   transform: skewX(-12deg);
+  background
 
   & > * {
     transform: skewX(12deg);

@@ -332,13 +332,14 @@ body {
   width: 75%;
   margin: auto;
   box-shadow: 0 1rem 6rem rgba(0, 0, 0, 0.1);
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.6);
   border-radius: .3rem;
   padding: 6rem;
   padding-left: 9rem;
   font-size: 1.6rem;
   transform: skewX(-12deg); }
-  .story > * {
+  background
+.story > * {
     transform: skewX(12deg); }
   .story__shape {
     width: 13rem;
@@ -372,6 +373,19 @@ body {
   .story:hover .story__img {
     transform: translateX(-3rem) scale(1);
     filter: blur(3px) brightness(80%); }
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: .15;
+  z-index: -999; }
+  .bg-video__content {
+    height: 100%;
+    width: 100%;
+    object-fit: fill; }
 
 .header {
   height: 95vh;
@@ -439,5 +453,5 @@ body {
   margin-top: -10rem; }
 
 .section-stories {
-  padding: 15rem 0;
-  background-color: #f7f7f7; }
+  position: relative;
+  padding: 15rem 0; }
