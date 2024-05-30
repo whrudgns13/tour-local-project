@@ -272,12 +272,13 @@ body {
     position: absolute;
     top: 12rem;
     right: 2rem;
-    width: 75%;
+    width: 70%;
     text-align: right; }
     .card__heading-span {
       padding: 1rem 1.5rem;
       -webkit-box-decoration-break: clone;
-      box-decoration-break: clone; }
+      box-decoration-break: clone;
+      line-height: 2; }
       .card__heading-span--1 {
         background-image: linear-gradient(to right bottom, #ffb900, #ff7730); }
       .card__heading-span--2 {
@@ -296,6 +297,23 @@ body {
         padding: 1rem; }
         .card__details ul li:not(:last-child) {
           border-bottom: 1px solid #eee; }
+  .card__cta {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    width: 90%;
+    text-align: center; }
+  .card__price-box {
+    color: #fff;
+    margin-bottom: 8rem; }
+  .card__price-only {
+    font-size: 1.4rem;
+    font-weight: 700; }
+  .card__price-value {
+    font-size: 6rem;
+    font-weight: 100; }
 
 .header {
   height: 95vh;
